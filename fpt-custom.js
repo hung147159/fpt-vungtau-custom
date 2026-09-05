@@ -868,3 +868,180 @@ function(){
 
 
 });
+/* =====================================================
+   FPT PROMOTION MODERN V1
+===================================================== */
+
+
+function fptPromotionV1(){
+
+
+    if(document.querySelector(".fpt-promo-modern")){
+        return;
+    }
+
+
+    let sections =
+    Array.from(document.querySelectorAll("section,div"));
+
+
+
+    let target =
+    sections.find(function(el){
+
+
+        return el.innerText &&
+        el.innerText.includes("KHUYẾN MÃI");
+
+
+    });
+
+
+
+    if(!target){
+
+        console.log("FPT PROMOTION NOT FOUND");
+
+        return;
+
+    }
+
+
+
+    target.classList.add("fpt-promo-modern");
+
+
+
+    target.innerHTML = `
+
+
+<div class="fpt-promo-head">
+
+<div class="fpt-promo-brand">
+FPT TELECOM
+</div>
+
+
+<h2>
+KHUYẾN MÃI HOT
+</h2>
+
+
+<div class="fpt-promo-desc">
+Cập nhật ưu đãi & chương trình mới nhất từ FPT Telecom
+</div>
+
+
+</div>
+
+
+
+<div class="fpt-promo-grid">
+
+
+
+<div class="fpt-promo-feature">
+
+
+<img src="https://fptmientay.vn/upload/product/camera-iq4s_1788406429.png">
+
+
+<div class="fpt-promo-content">
+
+
+<span class="fpt-promo-tag">
+CAMERA FPT
+</span>
+
+
+
+<h3>
+Giải pháp Internet, Camera và giải trí thông minh cho gia đình
+</h3>
+
+
+<p>
+Trải nghiệm hệ sinh thái dịch vụ số từ FPT Telecom.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="fpt-promo-side">
+
+
+<div class="fpt-promo-card">
+
+<img src="https://fptmientay.vn/upload/product/camera-iq4s_1788406429.png">
+
+<h4>
+Internet FPT tốc độ cao
+</h4>
+
+</div>
+
+
+
+
+<div class="fpt-promo-card">
+
+<img src="https://fptmientay.vn/upload/product/camera-iq4s_1788406429.png">
+
+<h4>
+FPT Play giải trí đa dạng
+</h4>
+
+</div>
+
+
+
+
+<div class="fpt-promo-card">
+
+<img src="https://fptmientay.vn/upload/product/camera-iq4s_1788406429.png">
+
+<h4>
+Camera FPT bảo vệ toàn diện
+</h4>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+<a href="#" class="fpt-promo-more">
+XEM TẤT CẢ KHUYẾN MÃI →
+</a>
+
+
+`;
+
+
+
+console.log(
+"FPT PROMOTION MODERN V1 LOADED"
+);
+
+
+}
+
+
+
+setTimeout(
+fptPromotionV1,
+1500
+);
