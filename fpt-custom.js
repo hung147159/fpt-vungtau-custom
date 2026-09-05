@@ -243,7 +243,7 @@ function(){
                         </span>
 
                         <span>
-                            0916.005.459
+                            0968.189.572
                         </span>
 
                     </a>
@@ -1274,7 +1274,7 @@ function(){
 
 
                     <a
-                        href="tel:0916005459"
+                        href="tel:0968189572"
 
                         class="fpt8-phone"
                     >
@@ -1286,7 +1286,7 @@ function(){
                         </span>
 
                         <span>
-                            0916.005.459
+                            0968.189.572
                         </span>
 
                     </a>
